@@ -5,7 +5,7 @@
 
 ### Database Model
 
-    #### - Course
+        - Course
             - courseNo
             - year
             - semester
@@ -23,7 +23,7 @@
                     - enum: ["Waiting", "In Progress", "Success"],
                 - csoScoreEachSec
 
-    #### - So
+        - So
             - courseNo
             - year
             - semester
@@ -38,34 +38,36 @@
 
 ### route
 
-- course
+#### - course
 
   - get
   - post
   - put
   - delete
 
-- so
+#### - so
 
   - get
   - post
   - put
   - delete
 
-- getdata
+#### - getdata
   - 3 params
     - tEmail
     - year
     - semester
-  - route example : http://localhost:4000/getDatas/test?tEmail=karn.patanukhom@cmu.ac.th&year=2566&semester=1
-- edit
+  - route example : /getDatas/test?tEmail=karn.patanukhom@cmu.ac.th&year=2566&semester=1
+  - 
+#### - edit
   - 4 params
     - course number
     - year
     - semester
     - section
-  - route example : http://localhost:4000/edits?courseNo=261499&year=2566&semester=1&section=1
-- summary
+  - route example : /edits?courseNo=261499&year=2566&semester=1&section=1
+    
+#### - summary
 
   - 4 params
     - course number
@@ -85,4 +87,4 @@
     }
     ```
 
-  - route example : http://localhost:4000/summary?courseNo=261499&year=2566&semester=1&section=1
+  - route example : /summary?courseNo=261499&year=2566&semester=1&section=1
