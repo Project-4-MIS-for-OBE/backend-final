@@ -1,9 +1,14 @@
 ## Starter command
--    npm install
+for install package
+
+      - npm install
+  
 for running server : port 4000
+
       -    npm start
      
 for develop
+
       -    nodemon npm start (for dev)
       
 ## Deploy command
