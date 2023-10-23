@@ -35,8 +35,18 @@
                 - so5
                 - so6
                 - so7
-
-## route
+## Backend Design
+    - home page
+        -    getdata 
+            -    fetch data from fs-api by using Teacher Email
+            -    then store into project database
+    - edit page
+        -    edit
+            -    fetch data from project database and display for user
+    - summary button
+        -    summary
+            -    calculate data from database with json body
+## Backend route
 
 ### course
 
@@ -57,7 +67,7 @@
     - tEmail
     - year
     - semester
-  - route example : /getDatas/test?tEmail=karn.patanukhom@cmu.ac.th&year=2566&semester=1
+  - route example : /getDatas?tEmail=karn.patanukhom@cmu.ac.th&year=2566&semester=1
   - 
 ### edit
   - 4 params
