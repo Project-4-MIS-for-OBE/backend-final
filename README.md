@@ -36,30 +36,30 @@
                 - so6
                 - so7
 
-### route
+## route
 
-#### - course
-
-  - get
-  - post
-  - put
-  - delete
-
-#### - so
+### course
 
   - get
   - post
   - put
   - delete
 
-#### - getdata
+### so
+
+  - get
+  - post
+  - put
+  - delete
+
+### getdata
   - 3 params
     - tEmail
     - year
     - semester
   - route example : /getDatas/test?tEmail=karn.patanukhom@cmu.ac.th&year=2566&semester=1
   - 
-#### - edit
+### edit
   - 4 params
     - course number
     - year
@@ -67,7 +67,7 @@
     - section
   - route example : /edits?courseNo=261499&year=2566&semester=1&section=1
     
-#### - summary
+### summary
 
   - 4 params
     - course number
