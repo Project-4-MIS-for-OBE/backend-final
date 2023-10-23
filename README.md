@@ -1,8 +1,18 @@
+## starter command
+-    npm install
+-    npm start (for running server) : port 4000
+-    nodemon npm start (for dev)
+## Technology stack
+-    Database
+      -    mongodb
+      -    mongo-express
+-    Backend
+      -    javaScripts
 ## backend infomation
 
-    - Database Design
-    - Backend  Design & route
-
+- Database Design
+- Backend  Design & route
+- 
 ### Database Model
 
         - Course
@@ -36,16 +46,16 @@
                 - so6
                 - so7
 ## Backend Design
-    - home page
-        -    getdata 
-            -    fetch data from fs-api by using Teacher Email
-            -    then store into project database
-    - edit page
-        -    edit
-            -    fetch data from project database and display for user
-    - summary button
-        -    summary
-            -    calculate data from database with json body
+- home page
+  -    getdata 
+      -    fetch data from fs-api by using Teacher Email
+      -    then store into project database
+- edit page
+  -    edit
+    -    fetch data from project database and display for user
+- summary button
+  -    summary
+    -    calculate data from database with json body
 ## Backend route
 
 ### course
