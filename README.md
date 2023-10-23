@@ -1,4 +1,4 @@
-## starter command
+## Starter command
 -    npm install
 -    npm start (for running server) : port 4000
 -    nodemon npm start (for dev)
@@ -8,11 +8,11 @@
       -    mongo-express
 -    Backend
       -    javaScripts
-## backend infomation
+## Backend infomation
 
 - Database Design
 - Backend  Design & route
-- 
+
 ### Database Model
 
         - Course
