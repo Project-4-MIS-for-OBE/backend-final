@@ -45,6 +45,7 @@
                 - so5
                 - so6
                 - so7
+                
 ## Backend Design
 - home page
   -    getdata 
@@ -59,18 +60,23 @@
 ## Backend route
 
 ### course
-
   - get
+      - courses/      (get all course in db)
+      - courses/:id
   - post
   - put
+      - courses/:id
   - delete
-
+      - courses/:id
 ### so
-
   - get
+      - so/            (get all so in db)
+      - so/:id
   - post
   - put
+      - so/:id
   - delete
+      - so/:id
 
 ### getdata
   - 3 params
@@ -78,7 +84,7 @@
     - year
     - semester
   - route example : /getDatas?tEmail=karn.patanukhom@cmu.ac.th&year=2566&semester=1
-  - 
+
 ### edit
   - 4 params
     - course number
