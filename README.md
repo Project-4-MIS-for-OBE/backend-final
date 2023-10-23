@@ -2,13 +2,17 @@
 -    npm install
 for running server : port 4000
       -    npm start
+     
 for develop
       -    nodemon npm start (for dev)
+      
 ## Deploy command
 for first time
 -    make init-deploy
+  
 If project have been deploy already     
 -    make build-deploy
+  
 ## Technology stack
 -    Database
       -    mongodb
