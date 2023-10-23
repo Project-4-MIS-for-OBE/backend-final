@@ -1,10 +1,14 @@
 ## Starter command
 -    npm install
--    npm start (for running server) : port 4000
--    nodemon npm start (for dev)
+for running server : port 4000
+      -    npm start
+for develop
+      -    nodemon npm start (for dev)
 ## Deploy command
--    make init-deploy      (for first time)
--    make build-deploy     (if project have been deploy already)
+for first time
+-    make init-deploy
+If project have been deploy already     
+-    make build-deploy
 ## Technology stack
 -    Database
       -    mongodb
